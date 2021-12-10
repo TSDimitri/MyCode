@@ -1,29 +1,29 @@
 body {
-margin: 0%;
+    margin: 0%;
 }
 
 
 
 h1 {
-color:  #df3f1d
+    color:#df3f1d
 }
 
 a {
-text-decoration: none;
-background-color: black;
-padding: 5px 10px 10 ;
-color:#cf0000
+    text-decoration: none;
+    background-color: black;
+    padding: 5px 10px 10px;
+    color:#cf0000;
+    border: 2px solid springgreen;
 }
 
 img {
-border: 5px solid darkturquoise
-
+    border: 5px solid darkturquoise
 }
-a:hover {
-color: white;
-border-color:turquoise;
-background-color: navy;
 
+a:hover {
+    color: #df3f1d;
+    border-color:turquoise;
+    background-color: navy;
 } 
 
 ul,
