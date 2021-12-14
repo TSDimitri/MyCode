@@ -1,13 +1,20 @@
 body {
-margin: 0%;
-}
 
+background-color: rgb(122, 168, 206);
+}
+.container {
+ width: 800px;
+ margin: auto;
+}
 
 
 h1 {
 color:  #df3f1d
 }
-
+span{
+    color: rgb(7, 163, 33);
+    text-decoration: underline;
+}
 a {
 text-decoration: none;
 background-color: black;
@@ -20,7 +27,7 @@ border: 5px solid darkturquoise
 
 }
 a:hover {
-color: white;
+color: black;
 border-color:turquoise;
 background-color: navy;
 
@@ -32,7 +39,7 @@ ol {
     padding-left: 20px;
 }
 table{
-    width: 100%;
+    width: 50%;
 border-collapse: collapse;
 }
 table th{
