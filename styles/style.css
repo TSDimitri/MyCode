@@ -1,13 +1,32 @@
 body {
-
-background-color: rgb(122, 168, 206);
+    margin: 0%;
+    background-color: rgb(255, 255, 255);
+    }
+.d-flex {
+    display: flex;
+    }
+.container2 {
+    width: 900px;
+    margin: auto;
+}
+header {
+    background-color: rgb(223, 219, 3);
+    height: 70px;
+    align-items: center;
+}
+header .container2 {
+    justify-content: space-between;
+    gap: 15px;
+}
+.notification-block {
+    text-align:center;
+    padding: 20px 0;
+    background-color: rgb(70, 70, 70);
 }
 .container {
- width: 800px;
- margin: auto;
-}
-
-
+    width: 800px;
+    margin: auto;
+    }
 h1 {
     color:#df3f1d
 }
@@ -17,43 +36,37 @@ span{
 }
 a {
     text-decoration: none;
-    background-color: black;
+    background-color: rgb(64, 65, 36);
     padding: 5px 10px 10px;
-    color:#cf0000;
-    border: 2px solid springgreen;
+    color:#f3f1f1;
+    border: 2px solid rgb(0, 0, 0);
 }
-
 img {
-    border: 5px solid darkturquoise
+    border: 5px solid rgb(1, 67, 68)
+
 }
 a:hover {
     color: black;
     border-color:turquoise;
-    background-color: navy;
+    background-color: navy; 
+}
+.welcome-container{
+    padding: 30 px;
+    background-color: gray;
+}
+.welcome-container img{
+    max-width: 70%;
+}
+.welcome-container .text-wrapper {
+    width: 30%;
+}
+.text-wrapper h1{
+    font-size: 30px;
+    color: honeydew;
+    
+}
+.container d-flex2 img{
+    position: relative;
+    left: 500px;
 }
 
-ul,
-ol {
-
-    padding-left: 20px;
-}
-table{
-    width: 50%;
-border-collapse: collapse;
-}
-table th{
-    text-align: left;
-}
-table td,
-table th {
-    padding: 5px 10px;
-border: 1px solid black
-}
-
-tbody tr:nth-child(even){
-background-color: blue;
-}
-
-thead tr {
-    background-color: cadetblue;
-}

@@ -1,23 +1,5 @@
-container .div1 {
-    color: red;
-    background-color: black;
-}
-.bg-white{
-    background-color: whitesmoke;
-}
-.div2 {
-    background-color: darkmagenta;
-    color: blue
-}
-.container{
-width: 800px;
-margin: auto;
-}
-#div-1 {
-    color: yellow;
-    background-color: thistle;
-}
-#div-2 {
-    color: turquoise;
-    background-color: yellowgreen;
+.img-container {
+    position: relative;
+    left: 500px;
+    margin-inline-end: 50px;
 }
