@@ -1,0 +1,41 @@
+/* auth */
+.auth-form-container {
+width: 300px;
+min-height: 200px;
+border: 1px solid #ccc;
+margin: auto;
+padding: 15px;
+box-sizing: border-box;
+color: blueviolet;
+}
+.auth-form-container .text-input-label {
+    display: block;
+    margin-bottom: 5px;
+}
+.auth-form-container .text-input {
+    height: 30px;
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-color: blue;
+}
+.form-group {
+    margin-bottom: 15px;
+}
+.submit-button {
+    display: block;
+    width: 100%;
+    height: 35px;
+    background-color: blue;
+    border: 0;
+    color: white;
+    cursor: pointer;
+    margin-bottom: 15px;
+}
+.reset-pass-link {
+    display: block;
+    text-align: center;
+    font-size: 12px;
+}
