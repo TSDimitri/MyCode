@@ -8,46 +8,45 @@
     <title>Document</title>
     <link rel="stylesheet" href="auth.css">
 </head>
+
 <body>
-<div class="container">
+    <div class="container">
+        <div class="auth-form-container">
+            <form action="" method="get">
+                <div class="form-group">
+                    <label class="text-input-label" for="firstName">სახელი</label>
+                    <input class="text-input" type="text" name="firstName" id="firstName" placeholder="ჩაწერეთ თქვენი სახელი">
+                </div>
 
-<div class="auth-form-container">
-    <form action="" method="get">
-    <div class="form-group">
-        <label class="text-input-label" for="firstName">სახელი</label>
-        <input class="text-input" type="text" name="firstName" id="firstName"
-        placeholder="ჩაწერეთ თქვენი სახელი">
-    </div>
-    <div class="auth-form-container">
-        <form action="" method="get">
-        <div class="form-group">
-            <label class="text-input-label" for="lastName">გვარი</label>
-            <input class="text-input" type="text" name="lastName" id="lastName"
-            placeholder="ჩაწერეთ თქვენი გვარი">
-    </div>
+                <div class="form-group">
+                    <label class="text-input-label" for="lastName">გვარი</label>
+                    <input class="text-input" type="text" name="lastName" id="lastName" placeholder="ჩაწერეთ თქვენი გვარი">
+                </div>
 
-    <div class="form-group">
-        <div class="sex-container">
-        <input type="radio" name="" id="male">
-        <label for="male">სქესი</label>
+                <div class="form-group">
+                    <div class="sex-container">
+                        <input type="radio" name="" id="male">
+                        <label for="male">სქესი</label>
+                    </div>
+                    <div>
+                        <input type="radio" name="" id="famele">
+                        <label for="famele">ქალი</label>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label class="text-input-label" for="pass">პაროლი</label>
+                    <input class="text-input" type="password" name="pass" id="pass">
+                </div>
+                <div class="form-group">
+                    <label class="text-input-label" for="save">დამახსოვრება</label>
+                    <input class="text-input" type="checkbox" name="save" id="save">
+                </div>
+                <button class="submit-button">შესვლა</button>
+                <a class="reset-pass-link" href="#">პაროლის აღდგენა</a>
+            </form>
         </div>
-    <div><input type="radio" name="" id="famele">
-        <label for="famele">ქალი</label>
     </div>
-    </div>
-
-    <div class="form-group">
-        <label class="text-input-label" for="pass">პაროლი</label>
-        <input class="text-input" type="password" name="pass" id="pass">
-    </div>
-    <div class="form-group">
-        <label class="text-input-label" for="save">დამახსოვრება</label>
-        <input class="text-input" type="checkbox" name="save" id="save">
-    </div>
-    <button class="submit-button">შესვლა</button>
-    <a class="reset-pass-link" href="#">პაროლის აღდგენა</a>
-    </form>
-</div>
-</div>  
 </body>
+
 </html>
