@@ -1,14 +1,14 @@
 /* auth */
 .auth-form-container {
-width: 300px;
-min-height: 200px;
-border: 1px solid #ccc;
-margin: auto;
-padding: 15px;
-box-sizing: border-box;
-color: blueviolet;
-}
-.auth-form-container .text-input-label {
+    width: 300px;
+    min-height: 200px;
+    border: 1px solid #ccc;
+    margin: auto;
+    padding: 15px;
+    box-sizing: border-box;
+    color: blueviolet;
+    }
+.auth-form-container .text-input-label{
     display: block;
     margin-bottom: 5px;
 }
@@ -38,4 +38,7 @@ color: blueviolet;
     display: block;
     text-align: center;
     font-size: 12px;
+}
+.sex-container {
+    display: inline;
 }
