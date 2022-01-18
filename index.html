@@ -1,64 +1,79 @@
 <!DOCTYPE html>
-<html lang="ka">
-
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PARTSAREA</title>
-    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles/styles.css">
+    <title>Document</title>
 </head>
-
-<body >
-    <header class="d-flex">
-        <div class="container2 d-flex">
-         <img src="logo.png" alt="" width="100px" height="50px">   
-        <nav>
-                <a href="">ანგარიშები</a>
-                <a href="">ჩვენ შესახებ</a>
-                <a href="">კონტაქტი</a>
-                <a href="">კალათა</a>
-            </nav>
-        </div>
-    </header>
-
-    <div class="notification-block">
-        <input type="search" id="sampo" placeholder="ძებნა"/>
-        <a href="#">(+995)3 22 83 50 60</a>
+<body>
+<header>
+    <div class="container">
+    <nav>
+        <a href="">menu item</a>
+        <a href="">menu item</a>
+        <a href="">menu item</a>
+        <a href="">menu item</a>
+    </nav>    
+    <div class="download-block">
+     <div class="search">
+        <button class="search-btn">
+          <img src="./assets/a2.jpg">    
+        </button>
+        <input type="text"> 
     </div>
-
-    <div class="welcome-container">
-        <div class="container d-flex wrapper">
-            <div class="main-image-container">
-                <img src="MF.jpg">
-                <div class="text-wrapper">
-                    <h1>სოფლის მეურნეობის ნაწილები</h1>
-                    <input type="search" id="search" placeholder="ბრენდი"/>
-                    <input type="search" id="search" placeholder="მოდელი"/>
-                </div>
-            </div>
-            <div class="main-image-container">
-                <img src="jcb.jpg">
-                <div class="text-wrapper">
-                    <h1>ინდუსტრიული ტექნიკის ნაწილები</h1>
-                    <input type="search" id="search" placeholder="ბრენდი"/>
-                    <input type="search" id="search" placeholder="მოდელი"/>
-                </div>
-            </div>
-        </div>
+    <button class="download-btn">
+        <img src="./assets/a3.jpg">
+        <span>Download</span>
+     </button>
     </div>
-    
-    
-     <center> <div class="container3"> 
-        <div class="item">შემტანი სისტემა</div>
-        <div class="item">შემტანი სისტემა</div>
-        <div class="item">შემტანი სისტემა</div>
-        <div class="item">შემტანი სისტემა</div>
-        <div class="item">შემტანი სისტემა</div>
-        <div class="item">შემტანი სისტემა</div>
-    </div></center>
+</header>
+<div class="notification">
+    <div class="container">
+        <p>
+            <a href="a">Version 1.63</a>
+             is now available! 
+            Read about the new features and fixes from November.
+        </p>
+    </div>
+</div>
 
+<section class="welcome-section">
+    <div class="container">
+       <div class="text-block">
+           <h1><span>Code editing.</span>
+             <span>Redefined.</span>  </h1>
+           <p>Free. Built on open source. Runs everywhere.</p>
+           <div class="download-btn">
+               <div>
+                   <h6>Download Mac Universal</h6>
+                   <small>Stable Build</small>
+               </div>
+               <div>
+                   <img src="./assets/a3.jpg">
+               </div>
 
+           </div>
+           <div class="tooltip">
+               <p>
+                   <a href="#">Other platforms</a>
+                   <span>and</span>
+                   <a href="#">Insiders Edition</a>
+               </p>
+           </div>
+           <p class="bottom-texts"> 
+               <span>By using VS Code, you agree to its</span>
+               <a href="#">license and privacy statement.</a>
+
+           </p>
+           
+       </div>
+       <img class="welcome-img" src="./assets/a4.jpg">
+    </div>
+</section>
 </body>
-
 </html>
