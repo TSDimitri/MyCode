@@ -27,37 +27,39 @@ header .container2 {
 .notification-block {
     text-align:center;
     background-color: rgb(49, 49, 49);
-    background-image: url(../d1.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-image: url(../assets/img3.jpg);
     height: 300px;
+    background-repeat: no-repeat;
+    background-size: cover
 }
 .search-container {
     display: flex;
     align-items: center;
 }
-.container {
-    width: 800px;
-    margin: auto;
-}
+
 .phone-number {
-    display: block;
+    display:block;
     text-align: right;
     color: white;
     text-decoration: none;
     padding: 5px 10px;
 }
+.container {
+    width: 800px;
+    margin: auto;
+    }
 h1 {
-    color:#df3f1d
+    color:#0f0300
 }
 span{
-    color: rgb(7, 163, 33);
+    color: rgb(0, 0, 0);
     text-decoration: underline;
 }
 nav a {
     text-decoration: none;
     padding: 5px 10px;
     color:#f8f8f8;
+    
 }
 
 nav a:hover {
@@ -67,12 +69,14 @@ nav a:hover {
 }
 .welcome-container{
     padding: 30 px;
-    background-color: rgb(42, 42, 42);
+    background-color: rgb(255, 255, 255);
 }
 
 .text-wrapper h1{
     font-size: 30px;
-    color: honeydew;
+    color: rgb(131, 131, 131);
+    border: 2px solid black;
+    background-color: rgb(48, 48, 48);
     
 }
 .container d-flex2 img{
@@ -108,16 +112,38 @@ nav a:hover {
   justify-content: space-between;
   align-items: center;
   
+  
 }
 .item {
     width: 250px;
     height: 100px;
     margin: 10px;
-    border: 2px solid black;
+    
+    align-items:center;
     
 }
-
-.item img {
-     width: 100%;
-     height: 100%;
+#icon {
+    font-size: 50px;
+    color: rgb(37, 4, 156);
 }
+
+.flex-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+    background-color: rgb(255, 255, 255);
+  }
+  
+  .flex-container > div {
+    background-color: #ffffff;
+    width: 200px;
+    margin: 50px;
+    text-align: center;
+    line-height: 30px;
+    font-size: 15px;
+  }
+ 
+
+  .item2 {
+      border-top: 5px solid yellow;
+  }
